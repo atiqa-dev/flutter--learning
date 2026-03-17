@@ -1,15 +1,17 @@
-import 'dart:io';
+
 
 void main() {
+ checknumber(37567335);
+ checknumber(36544);
+ checknumber(242424);
+}
+ void checknumber(int a){
 
- print("Enter your age:");
-
- int age = int.parse(stdin.readLineSync()!);
-
- if (age >= 18) {
-  print("You are an Adult.");
- } else {
-  print("You are a Minor.");
+  if (a % 2 == 0) {
+   print("Number is even");
+  } else {
+   print("Number is odd.");
+  }
  }
 
-}
+
