@@ -1,17 +1,18 @@
 
 
-void main() {
- checknumber(37567335);
- checknumber(36544);
- checknumber(242424);
+void main()
+{
+ print(square(7));
+ print(square(988765));
+ print(square(5377375));
+ print(square(5344894));
+ print(square(3643444));
+ print(square(99874653));
 }
- void checknumber(int a){
+ int square(int a) =>a*a;
 
-  if (a % 2 == 0) {
-   print("Number is even");
-  } else {
-   print("Number is odd.");
-  }
- }
+
+
+
 
 
