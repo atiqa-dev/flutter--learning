@@ -1,22 +1,1 @@
-
-
-void main() {
- var pname = Calculator();
- pname.printname("sarah");
- pname.printname("Latika");
-pname.printname("Varisha");
-
-}
- class Calculator{
-void printname (String name){
-
-
-print(name);
-
-}
-
-}
-
-
-
-
+void main() { var  c= Car(); c.checkfuel(49); c.checkfuel(5);  c.checkfuel(50); c.checkfuel(62); c.checkfuel(60); c.checkfuel(9); c.speed(50); c.speed(40); c.speed(60); c.speed(20); c.speed(30); c.speed(80);} class Car {  void checkfuel(int fuel) {   if (fuel <=10)   {    print("fuel is finished:car stopped");   }  else if (fuel <=20) {    print("low fuel");   }   else if(fuel<=50){   print ("fuel will go low in 3 km");   }   else  {    print("car is moving smoothly");   }  }  void speed(int s){   if(s<=30){    print("speed is low");   }   else if (s<=50){    print("speed is normal");   }    else{     print("speed is high go slow");   }  } }
