@@ -1,17 +1,21 @@
 
 
-void main()
-{
- print(square(7));
- print(square(988765));
- print(square(5377375));
- print(square(5344894));
- print(square(3643444));
- print(square(99874653));
+void main() {
+ var pname = Calculator();
+ pname.printname("sarah");
+ pname.printname("Latika");
+pname.printname("Varisha");
+
 }
- int square(int a) =>a*a;
+ class Calculator{
+void printname (String name){
 
 
+print(name);
+
+}
+
+}
 
 
 
