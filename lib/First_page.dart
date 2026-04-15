@@ -1,1 +1,0 @@
-void main() { var  stdInfo= {  "name": "Atiqa",  "age": 20,  "cgpa" :4.0,  "city": "RWP", }; print(stdInfo); stdInfo["age"]=21; print(stdInfo); print (stdInfo.isNotEmpty); print (stdInfo.isEmpty); print (stdInfo.keys); print (stdInfo.containsKey("cgpa")); print (stdInfo.length); }
