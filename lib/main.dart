@@ -1,14 +1,10 @@
-
-
 void main() {
     void Grade = grading(60);
-grading (80);
+    grading (80);
     grading (70);
     grading (40);
     grading (59);
     grading (46);
-
-
 }
 // grading system
 void grading(int marks)
